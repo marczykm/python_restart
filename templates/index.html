@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Kodi power manager</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6" id='shutdown'><button class="btn btn-danger btn-lg"><p>Wyłącz</p><span class="glyphicon glyphicon-off"></span></button></div>
+				<div class="col-md-6" id='restart'><button class="btn btn-danger btn-lg"><p>Uruchom ponownie</p><span class="glyphicon glyphicon-repeat"></span></button></div>
+
+			</div>
+			<div class="alerts">
+				<div id="shutdownAlert" class="alert alert-success" role="alert">Kodi zostanie wyłączone</div>
+				<div id="restartAlert" class="alert alert-success" role="alert">Kodi zostanie uruchomione ponownie</div>
+			</div>
+		</div>
+		
+		<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src='/js/script.js'></script>
+	</body>
+</html>
